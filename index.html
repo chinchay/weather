@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles/index.css">
+    <!-- <script src="scripts/index.js" defer></script> -->
+    <script src="scripts/modules.js" type="module"></script>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section id="headSection">
+        <h1 id="title">Weather App</h1>
+        <h2 id="subtitle">A simple web application</h2>
+    </section>
+
+    <section id="promptSection">
+        <label for="forCity">City: </label>
+        <input id="idCity" />
+        <button id="idSubmitCity">Submit</button>        
+    </section>
+
+    <section>
+        <div id="outHead">
+            <p id="city"></p>
+            <p id="currentTemp"></p>
+            <p id="min"></p>
+            <p id="max"></p>
+            <p id="currentSymbol"></p>
+        </div>
+        <div id="outArray">
+            <p id="listHour"></p>
+            <!-- <p id="listSymbol"></p> -->
+            <p id="listTemp"></p>
+        </div>
+    </section>
+
+    <!-- https://www.reshot.com/    free icons -->
+    <img src="images/sun.svg">
+    <img src="images/sun_cloud.svg">
+    <img src="images/rain.svg">
+    <img src="images/snow.svg">
+
+</body>
+</html>
